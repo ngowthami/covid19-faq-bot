@@ -1,0 +1,38 @@
+## happy path
+* greet
+  - utter_greet
+* covid_19
+  - utter_covid_19
+* start
+  - utter_start
+* When_do_symptoms_start_to_appear
+  - utter_When_do_symptoms_start_to_appear
+* treatment
+  - utter_treatment
+* spread
+  - utter_spread
+* danger
+  - utter_danger
+* vaccine
+  - utter_vaccine
+* prevent
+  - utter_prevent
+* novel_corona
+  - utter_novel_corona
+* why_named_covid
+  - utter_why_named_covid
+* how_virus_spread
+  - utter_how_virus_spread
+* corona_spreading_sources
+  - utter_corona_spreading_sources
+* community_spread
+  - utter_community_spread
+* mosquitoes_spread_corona
+  - utter_mosquitoes_spread_corona
+* protect_myself
+  - utter_protect_myself
+* medication_for_other_diseases
+  - utter_medication_for_other_diseases
+## bye
+* goodbye
+  - utter_goodbye

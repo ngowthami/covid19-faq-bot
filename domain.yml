@@ -1,0 +1,116 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- covid_19
+- start
+- When_do_symptoms_start_to_appear
+- treatment
+- spread
+- danger
+- vaccine
+- prevent
+- novel_corona
+- why_named_covid
+- how_virus_spread
+- corona_spreading_sources
+- community_spread
+- mosquitoes_spread_corona
+- protect_myself
+- medication_for_other_diseases
+- goodbye
+responses:
+  utter_greet:
+  - text: Hey! Welcome to COVID-19_BOT,How can i help you?
+  utter_covid_19:
+  - text: COVID-19, otherwise known as coronavirus disease 2019.Coronavirus disease
+      2019 (COVID-19) is an acute infectious respiratory disease caused by a newly
+      discovered coronavirus (SARS-CoV-2).
+  utter_start:
+  - text: The virus was discovered in Wuhan, China in December 2019 and has since
+      spread around the world. It was declared a pandemic by the World Health Organization
+      on 11 March 2020.
+  utter_When_do_symptoms_start_to_appear:
+  - text: It can take up to 14 days for people to show symptoms, but most people notice
+      them in the first four to five days.
+  utter_treatment:
+  - text: treatment is needed for corona patients,and also treatment based on the
+      patient's clinical condition.
+  utter_spread:
+  - text: it can be transmitted from person to person, usually after close contact
+      with an infected patient.
+  utter_danger:
+  - text: yes, it is problem for people who are already suffering from high blood
+      pressure, heart problems or diabetes.there is a chance to cause death for those
+      peoples.it is also danger for kids and small babies.
+  utter_vaccine:
+  - text: still there is no perfect vaccine for corona virus.it will take some more
+      time to discover.
+  utter_prevent:
+  - text: 1.Stay home 2.KEEP a safe distance 3.WASH hands often 4.COVER your cough
+  utter_novel_corona:
+  - text: novel coronavirus is a new coronavirus that has not been previously identified.
+      The virus causing coronavirus disease 2019 (COVID-19), is not the same as the
+      coronaviruses that commonly circulate among humans and cause mild illness, like
+      the common cold.
+  utter_why_named_covid:
+  - text: On February 11, 2020 the World Health Organization announced an offcial
+      name for the disease that is causing the 2019 novel coronavirus outbreak,
+  utter_how_virus_spread:
+  - text: The virus that causes COVID-19 is thought to spread mainly from person to
+      person, mainly through respiratory droplets produced when an infected person
+      coughs, sneezes, or talks. These droplets can land in the mouths or noses of
+      people who are nearby or possibly be inhaled into the lungs. Spread is more
+      likely when people are in close contact with one another (within about 6 feet)."COVID-19
+      seems to be spreading easily and sustainably in the community (“community spread”)
+      in many a
+  utter_corona_spreading_sources:
+  - text: Coronaviruses are generally thought to be spread from person to person through
+      respiratory droplets. Currently, there is no evidence to support transmission
+      of COVID-19 associated with food. Before preparing or eating food it is important
+      to always wash your hands with soap and water for at least 20 seconds for general
+      food safety. Throughout the day use a tissue to cover your coughing or sneezing,
+      and wash your hands after blowing your nose, coughing or sneezing, or going
+      to the bathroom.
+  - text: It is not yet known whether  and temperature affect the spread of COVID-19.
+      Some other viruses, like those that cause the common cold and
+  utter_community_spread:
+  - text: Community spread means people have been infected with the virus in an area,
+      including some who are not sure how or where they became infected. Each health
+      department determines community spread di
+  utter_mosquitoes_spread_corona:
+  - text: At this time, CDC has no data to suggest that this new coronavirus or other
+      similar coronaviruses are spread by mosquitoes or ticks. The main way that COVID-19
+      spreads is from person to person. See How Coronavirus Spreads for more information.
+  utter_protect_myself:
+  - text: Visit the https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html
+      page to learn about how to protect yourself from respiratory illnesses, like
+      COVID-19.
+  utter_medication_for_other_diseases:
+  - text: 3. Continue to manage your disease the way your healthcare provider has
+      told you.
+  - text: 2. Continue your medications, and do not change your treatment plan without
+      talking to your healthcare provider.
+  - text: 1. It is important to continue taking care of your health and wellness.
+  utter_goodbye:
+  - text: Bye
+actions:
+- utter_greet
+- utter_covid_19
+- utter_start
+- utter_When_do_symptoms_start_to_appear
+- utter_treatment
+- utter_spread
+- utter_danger
+- utter_vaccine
+- utter_prevent
+- utter_novel_corona
+- utter_why_named_covid
+- utter_how_virus_spread
+- utter_corona_spreading_sources
+- utter_community_spread
+- utter_mosquitoes_spread_corona
+- utter_protect_myself
+- utter_medication_for_other_diseases
+- utter_goodbye
