@@ -7,6 +7,10 @@ rasa
 
 python3
 
+## Installation
+
+Please refer the below link for installation steps:
+https://rasa.com/docs/rasa/installation/
 
 ## How to run 
 
